@@ -9,9 +9,9 @@ const Navbar = () => {
     const onClick = () => setBar(!bar)
 
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-amber-50'>
+        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#262933] text-amber-50'>
             <div className='z-10'>
-                <img className='hover:scale-110 duration-300' src={Logo} alt='logo' style={{width: '80px'}}/>
+                <img className='hover:scale-110 duration-300 cursor-pointer' src={Logo} alt='logo' style={{width: '120px'}}/>
             </div>
 
             {/* navbar menu */}
