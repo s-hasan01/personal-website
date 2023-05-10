@@ -8,7 +8,7 @@ const Home = () => {
     const sync = useSyncAnimation();
 
     return (
-        <div className='w-full h-screen bg-[#0a192f] px-8'>
+        <div name='home' className='w-full h-screen bg-[#0a192f] px-8'>
 
             {/* text-box */}
             <div className='max-w-[1150px] mx-auto flex flex-col justify-center h-full text-amber-50'>

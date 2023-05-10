@@ -9,7 +9,7 @@ const Navbar = () => {
     const onClick = () => setBar(!bar)
 
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#262933] text-amber-50'>
+        <div name='navbar' className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#262933] text-amber-50'>
             <div className='z-10'>
                 <img className='hover:scale-110 duration-300 cursor-pointer' src={Logo} alt='logo' style={{width: '120px'}}/>
             </div>
@@ -17,27 +17,27 @@ const Navbar = () => {
             {/* navbar menu */}
             <div>
                 <ul className='hidden sm:flex'>
-                    <li className='hover:scale-110 duration-600'>Home</li>
-                    <li className='hover:scale-110 duration-600'>About</li>
-                    <li className='hover:scale-110 duration-600'>Skills</li>
-                    <li className='hover:scale-110 duration-600'>My Work</li>
-                    <li className='hover:scale-110 duration-600'>Contact</li>
+                    <li className='hover:scale-110 duration-300'>Home</li>
+                    <li className='hover:scale-110 duration-300'>About</li>
+                    <li className='hover:scale-110 duration-300'>Skills</li>
+                    <li className='hover:scale-110 duration-300'>Work</li>
+                    <li className='hover:scale-110 duration-300'>Contact</li>
                 </ul>
             </div>
 
             {/* hamburger menu */}
-            <div onClick={onClick} className={bar ? 'z-10': 'sm:hidden z-10'}>
+            <div onClick={onClick} className={bar ? 'z-10 sm:hidden': 'sm:hidden'}>
                 <FaBars/>
             </div>
 
             {/* mobile menu */}
-            <div className={!bar ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center align-middle md:hidden'}>
+            <div className={!bar ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center text-center items-center sm:hidden'}>
                 <ul>
-                    <li className='py-6 text-4xl hover:scale-110'>Home</li>
-                    <li className='py-6 text-4xl hover:scale-110'>About</li>
-                    <li className='py-6 text-4xl hover:scale-110'>Skills</li>
-                    <li className='py-6 text-4xl hover:scale-110'>Work</li>
-                    <li className='py-6 text-4xl hover:scale-110'>Contact</li>
+                    <li className='py-6 text-4xl hover:scale-110 duration-300'>Home</li>
+                    <li className='py-6 text-4xl hover:scale-110 duration-300'>About</li>
+                    <li className='py-6 text-4xl hover:scale-110 duration-300'>Skills</li>
+                    <li className='py-6 text-4xl hover:scale-110 duration-300'>Work</li>
+                    <li className='py-6 text-4xl hover:scale-110 duration-300'>Contact</li>
                 </ul>
             </div>
 
@@ -61,7 +61,6 @@ const Navbar = () => {
                     </li>
                 </ul>
             </div>
-
         </div>
     );
 };
