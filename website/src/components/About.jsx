@@ -13,7 +13,7 @@ const About = () => {
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                     <div>
-                        <p className='sm:text-right text-4xl font-bold'>Testting it's nice to meet you, jave a look around and learn some more</p>
+                        <p className='sm:text-right text-3xl font-bold'>Testting it's nice to meet you, jave a look around and learn some more</p>
                     </div>
                     <div>
                         <p>As a software engineer, I am dedicated to crafting elegant and efficient solutions to complex problems. With a strong attention to detail and a passion for learning, I am constantly seeking to improve my skills and stay up-to-date with the latest technologies. My collaborative mindset and strong communication skills make me a valuable team player who is always ready to contribute to the success of any project.</p>
