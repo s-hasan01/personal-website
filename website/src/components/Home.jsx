@@ -20,7 +20,7 @@ const Home = () => {
                 <p className='py-3 text-gray-500 animate-none'>With dedication to craft elegant, efficient solutions to complex problems, strong attention to detail and a passion for learning, I am constantly seeking to improve my skills. A collaborative mindset and strong communication make me a valuable team player who is always ready to contribute to the success of any project.</p>
                 <div className='py-3'>
                     <button className='text-amber-50 group border-2 px-3 py-1 flex hover:bg-pink-600 hover:scale-105 duration-300'>
-                        My Work
+                        About Me
                         <span className='group-hover:rotate-90 duration-300 ml-2 my-1'>
                             <HiArrowRight/>
                         </span>
