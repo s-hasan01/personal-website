@@ -9,7 +9,7 @@ const Navbar = () => {
     const onClick = () => setBar(!bar)
 
     return (
-        <div name='navbar' className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#262933] text-amber-50'>
+        <div name='navbar' className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-cyan-800 text-amber-50 z-30'>
             <div className='z-10'>
                 <img className='hover:scale-110 duration-300 cursor-pointer' src={Logo} alt='logo' style={{width: '120px'}}/>
             </div>
@@ -26,7 +26,7 @@ const Navbar = () => {
             </div>
 
             {/* hamburger menu */}
-            <div onClick={onClick} className={bar ? 'z-10 sm:hidden': 'sm:hidden'}>
+            <div onClick={onClick} className={bar ? 'z-10 sm:hidden cursor-pointer hover:scale-110 duration-300': 'cursor-pointer sm:hidden hover:scale-110 duration-300'}>
                 <FaBars/>
             </div>
 
