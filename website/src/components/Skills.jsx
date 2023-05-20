@@ -7,6 +7,10 @@ import nodejs from '../images/nodejs.png'
 import flask from '../images/flask.png'
 import gitlab from '../images/gitlab.png'
 import angular from '../images/angular.png'
+import python from '../images/python.png'
+import java from '../images/java.png'
+import kotlin from '../images/kotlin.png'
+import c from '../images/c.png'
 
 
 const Skills = () => {
@@ -17,7 +21,7 @@ const Skills = () => {
                     <p className='text-4xl font-bold inline border-b-4 border-pink-600'>Skills</p>
                     <p className='py-4'>// These are the technologies I have worked with //</p>
                 </div>
-                <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-4'>
+                <div className='w-full grid grid-cols-4 sm:grid-cols-6 gap-4 text-center py-4'>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-300 bg-blue-950 rounded-2xl'>
                         <img className='w-20 mx-auto my-4' src={js} alt='js icon'/>
                         <p className='my-4'>JavaScript</p>
@@ -31,12 +35,12 @@ const Skills = () => {
                         <p className='my-4'>GitLab</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-300 bg-blue-950 rounded-2xl'>
-                        <img className='w-20 mx-auto my-4' src={postgres} alt='postgres icon'/>
-                        <p className='my-4'>PostgreSQL</p>
-                    </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-300 bg-blue-950 rounded-2xl'>
                         <img className='w-20 mx-auto my-4' src={nodejs} alt='postgres icon'/>
                         <p className='my-4'>NodeJS</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-300 bg-blue-950 rounded-2xl'>
+                        <img className='w-24 mx-auto my-4' src={postgres} alt='postgres icon'/>
+                        <p className='my-4'>PostgreSQL</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-300 bg-blue-950 rounded-2xl'>
                         <img className='w-20 h-24 mx-auto my-4' src={flask} alt='postgres icon'/>
@@ -45,6 +49,22 @@ const Skills = () => {
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-300 bg-blue-950 rounded-2xl'>
                         <img className='w-24 mx-auto my-4' src={react_logo} alt='react icon'/>
                         <p className='my-4'>React</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-300 bg-blue-950 rounded-2xl'>
+                        <img className='w-20 h-24 mx-auto my-4' src={c} alt='postgres icon'/>
+                        <p className='my-4'>C</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-300 bg-blue-950 rounded-2xl'>
+                        <img className='w-24 h-24 mx-auto my-4' src={python} alt='postgres icon'/>
+                        <p className='my-4'>Python</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-300 bg-blue-950 rounded-2xl'>
+                        <img className='w-24 h-24 mx-auto my-4' src={java} alt='postgres icon'/>
+                        <p className='my-4'>Java</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-300 bg-blue-950 rounded-2xl'>
+                        <img className='w-24 h-24 mx-auto my-4' src={kotlin} alt='postgres icon'/>
+                        <p className='my-4'>Kotlin</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-300 bg-blue-950 rounded-2xl'>
                         <img className='w-24 h-24 mx-auto my-4' src={angular} alt='postgres icon'/>
