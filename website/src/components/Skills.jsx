@@ -15,7 +15,7 @@ import c from '../images/c.png'
 
 const Skills = () => {
     return (
-        <div name='skills' className='bg-[#0a192f] text-amber-50'>
+        <div name='skills' className='w-full h-screen bg-[#0a192f] text-amber-50'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div>
                     <p className='text-4xl font-bold inline border-b-4 border-pink-600'>Skills</p>
@@ -63,7 +63,7 @@ const Skills = () => {
                         <p className='my-4'>Java</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-300 bg-blue-950 rounded-2xl'>
-                        <img className='w-24 h-24 mx-auto my-4' src={kotlin} alt='postgres icon'/>
+                        <img className='w-20 h-24 mx-auto my-4' src={kotlin} alt='postgres icon'/>
                         <p className='my-4'>Kotlin</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-300 bg-blue-950 rounded-2xl'>
