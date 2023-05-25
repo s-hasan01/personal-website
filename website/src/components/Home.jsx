@@ -12,7 +12,7 @@ const Home = () => {
 
             {/* text-box */}
             <div className='max-w-[1150px] mx-auto flex flex-col justify-center h-full text-amber-50'>
-                <p className='text-pink-600 text-2xl'>Hi, my name is</p>
+                <p className='text-blue-300 text-2xl'>Hi, my name is</p>
                 <h1 className='text-4xl sm:text-7xl font-bold text-amber-50'>Sajjad Hassan</h1>
                 <h2 className='text-4xl sm:text-7xl font-bold text-gray-500'><TypingText text={"I'm a Full-Stack Developer."} order={0} sync={sync} reverse={true} speed={1}/></h2>
                 <h2 className='text-4xl sm:text-7xl font-bold text-gray-500'><TypingText text={"I'm a Database Developer."} order={1} sync={sync} reverse={true} speed={1}/></h2>

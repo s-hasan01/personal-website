@@ -9,7 +9,7 @@ const Navbar = () => {
     const onClick = () => setBar(!bar)
 
     return (
-        <div name='navbar' className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-cyan-800 text-amber-50 z-30'>
+        <div name='navbar' className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-amber-50 z-30'>
             <div className='z-10'>
                 <img className='hover:scale-110 duration-300 cursor-pointer' src={Logo} alt='logo' style={{width: '120px'}}/>
             </div>
@@ -54,7 +54,7 @@ const Navbar = () => {
                             GitHub <FaGithub size={38} color='#F2F6FB'/>
                         </a>
                     </li>
-                    <li className='w-[155px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 text-[18px] bg-green-950 font-semibold'>
+                    <li className='w-[155px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 text-[18px] bg-blue-300 font-semibold'>
                         <a className='flex justify-between items-center w-full text-[#F2F6FB]' href="www.linkedin.com/in/sajjad-hasan1">
                             Resume <FaPaperclip size={33} color='#F2F6FB'/>
                         </a>
